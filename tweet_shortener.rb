@@ -27,4 +27,6 @@ def bulk_tweet_shortener(array_tweets)
   }
 end
 
+def 
+
 
