@@ -14,7 +14,10 @@ def dictionary
 end
 
 def words_substituter(tweet)
-  
+  tweet.split.collect{ |word|
+    dictionary.keys.include?(word.downcase) ? 
+      word = dictionary[word.downcase] : word
+  }.join(" ")
   
 end
 
