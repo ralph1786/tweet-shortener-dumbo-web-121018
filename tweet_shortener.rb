@@ -1,5 +1,5 @@
 def dictionary
-  words_substitute = {
+  dictionary = {
     "hello" => "hi",
     "to" => "2",
     "two" => "2",
