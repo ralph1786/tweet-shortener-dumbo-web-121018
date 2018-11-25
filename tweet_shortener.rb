@@ -9,6 +9,6 @@ def dictionary
     "be" => "b",
     "you" => "u",
     "at" => "@",
-    "and" => "&",
+    "and" => "&"
   }
 end
